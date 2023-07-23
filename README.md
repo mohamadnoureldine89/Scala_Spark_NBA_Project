@@ -1,6 +1,6 @@
 # NBA Data Extraction and Transformation
 
-This project consists of two applications, `Extract` and `Transform`, that fetch NBA game and stats data from balldontlie's API, save it locally, and then transform and merge the data for further analysis.
+This project consists of two applications, `Extract` and `Transform`, that fetch NBA game and stats data from the `balldontlie.io` API, save it locally, and then transform and merge the data for further analysis.
 
 ## Extract
 
@@ -8,7 +8,7 @@ The `Extract` application fetches data from the `balldontlie.io` API. It fetches
 
 ### Running Extract
 
-To run the `Extract` application, you need to have Spark installed and configured on your machine. Once you have Spark set up, you can run the application using the `spark-submit` command.
+To run the `Extract` application, you need to have Spark installed and configured on your machine. Once you have Spark set up, you can run the application using the play button in IntelliJ or `spark-submit` command in terminal.
 
 ## Transform
 
@@ -16,7 +16,7 @@ The `Transform` application reads the locally saved JSON files into Spark DataFr
 
 ### Running Transform
 
-Similar to the `Extract` application, you need to have Spark installed and configured on your machine to run the `Transform` application. Once you have Spark set up, you can run the application using the `spark-submit` command.
+Similar to the `Extract` application, you need to have Spark installed and configured on your machine to run the `Transform` application.
 
 ## Dependencies
 
